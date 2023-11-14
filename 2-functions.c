@@ -37,7 +37,7 @@ return (write_unsgnd(0, a, buffer, flags, width, precision, size));
 }
 
 /**
-* print_un - function for printing insigned
+* printf_un - function for printing insigned
 * @types: argumentsss
 * @buffer: Buff3r
 * @flags: flagss
