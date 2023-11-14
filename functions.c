@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* printf_ch - ffunction to Prints a chare
+* printf_cha - ffunction to Prints a chare
 * @types: lList
 * @buffer: gBuffer
 * @flags:  gflags
