@@ -44,14 +44,14 @@ int printstr(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int print37(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printine(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printbin(va_list types, char buff[], int flg, int wid, int pre, int siz);
-int printfund(va_list types, char buff[], int flg, int wid, int pre, int siz);
+int printund(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printoct(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printhex(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printHEX(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printhexa(va_list types, char map_to[], char buff[], int flg, char flg_ch, int wid, int pre, int siz);
 int printex_str(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printpoi(va_list types, char buff[], int flg, int wid, int pre, int siz);
-int printfrev(va_list types, char buff[], int flg, int wid, int pre, int siz);
+int printrev(va_list types, char buff[], int flg, int wid, int pre, int siz);
 int printro13(va_list types, char buff[], int flg, int wid, int pre, int siz);
 
 
