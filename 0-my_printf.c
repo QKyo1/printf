@@ -9,7 +9,7 @@
 void print_buff(char buff[], int *buff_ind)
 {
 if (*buff_ind > 0)
-write(1, &buffer[0], *buff_ind);
+write(1, &buff[0], *buff_ind);
 *buff_ind = 0;
 }
 
@@ -39,11 +39,11 @@ printed_cha++;
 }
 else
 {
-print_buff(buffer, &buff_ind);
-flg = ha_flags(format, &i);
-wid = ha_width(format, &i, list);
-pre = ha_precision(format, &i, list);
-siz = ha_size(format, &i);
+print_buff(buff, &buff_ind);
+flg = ha_flg(format, &i);
+wid = ha_wid(format, &i, list);
+pre = ha_pre(format, &i, list);
+siz = ha_siz(format, &i);
 ++i;
 pr = ha_printf(format, &i, list, buff, flg, wid, pre, siz);
 if (pr == -1)
