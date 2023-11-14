@@ -16,7 +16,7 @@ write(1, &buff[0], *buff_ind);
 /**
 * _printf - my print f function
 * @format: argument of the format
-* Return:
+* Return: pointer
 */
 
 int _printf(const char *format, ...)
